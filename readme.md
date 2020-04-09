@@ -1,7 +1,7 @@
 **How To Run**
 
 <h5>Make sure your pascal voc data is separated into two folders, annotations [.xml] and images [.jpg, .png]</h3>
-![](readme_images/a_i_images.PNG)
+![](./readme_images/a_i_images.PNG)
 <h5>Set up a project in VOTT, connecting it to your dataset's images folder create a folder in which your output will be stored use that as target connection</h5>
 ![](readme_images/vott_setup.PNG)
 
