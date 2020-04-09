@@ -1,0 +1,82 @@
+{
+    "name": "mnist",
+    "securityToken": "mnist Token",
+    "sourceConnection": {
+        "name": "con1",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZDc2MDhjN2VmNGU1MmNmYzFmNmU4MDc5YWEyZmVjODFhMTQ1NmRhM2U3MDBmZjE0MjJmMGUxMTE4MjBkYmViZjk4MjkzNjhkZmExMWM3YzZmYTE0MTA5NTM0YTJhNGIyNzMyMTRmYjkwODY4MzFiNjZiZmY5OWRiYzI2YTQ4YzhhYjdjYjNlNGU2NThhNDcyMjdmZGNiMWU0OGM5ZmU5ZiIsIml2IjoiYjBkMGEyYWNhOGJiYWZmNWIzZjIxYzM0NWQ1ZTM5YTc2MzFhZDhhMjZjZmUxOGU4In0="
+        },
+        "id": "mGMiCABDT"
+    },
+    "targetConnection": {
+        "name": "conn2",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZWVhM2JkOGRjODc3ZGM1M2IwN2YxYmNmMGVjNjU1NDYwYmQ5YzMzYzQ3ZDBiMzg3NjM2MmZmY2ExNzYzOTMzYWE5YjQyNDJiYTA0MDE5NmExNWFmMGVjYTQ3M2ZkZDA0ZDY0Y2U5NzJhMGMwM2U3MjY5NTZlYWE5MjIwMTgxZDlmYTVkZjU3N2UxN2IyZmEyNWZhY2VlZjAwM2Q4OTg2MThjNTBhNTczNTIwMWY3YjU4MDdiMDEzMWQyYTlhYjczIiwiaXYiOiI1YjIzMTg5NzQ0Y2M0OTkwNjY4MTk3OTViNjA2MGM5MWI5YjA2NzFhYmM2NGQ0YzIifQ=="
+        },
+        "id": "GWaCw-3wc"
+    },
+    "description": "test",
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "1",
+            "color": "#5db300"
+        },
+        {
+            "name": "2",
+            "color": "#e81123"
+        },
+        {
+            "name": "3",
+            "color": "#6917aa"
+        },
+        {
+            "name": "33.",
+            "color": "#015cda"
+        }
+    ],
+    "id": "DTD_azTbo",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "pascalVOC",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZTQ1NDM1ZGY4NTljNTVhMmQzODcxMTg4ODJlNGUwNTA3NzZhNjgzNDVhMjZkOTk4OGViZmNlY2E5ZDI5OTU5YTQ5ZTE4Mjc0NGQxYWE4ODc0YjI0MzViNTU2ZDA0YjNkMDQ0Y2JiZDI3ZDMxNzZlM2FmMzIxYmYzNzdmMzI2MWZhNmJiZTAwNzFkYzJkMjNmYjU5ODVmOTU0ZGI2Nzk3OCIsIml2IjoiNTM2MTU3NzgyZTA4ZWRiYjMzNWIzMmYxM2ViMzA3YzViZGFjNGMxMzkzNTE3N2JmIn0="
+        }
+    },
+    "version": "2.1.0",
+    "lastVisitedAssetId": "3993ac8199c5fbd773102c621edfc78b",
+    "assets": {
+        "3993ac8199c5fbd773102c621edfc78b": {
+            "format": "jpg",
+            "id": "3993ac8199c5fbd773102c621edfc78b",
+            "name": "000001.jpg",
+            "path": "file:E:/Sean/PycharmProjects/yolov3-tf2/yymnist/Images/000001.jpg",
+            "size": {
+                "width": 416,
+                "height": 416
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b78decede52013df17fd592a4c62be5d": {
+            "format": "jpg",
+            "id": "b78decede52013df17fd592a4c62be5d",
+            "name": "000002.jpg",
+            "path": "file:E:/Sean/PycharmProjects/yolov3-tf2/yymnist/Images/000002.jpg",
+            "size": {
+                "width": 416,
+                "height": 416
+            },
+            "state": 1,
+            "type": 1
+        }
+    }
+}
