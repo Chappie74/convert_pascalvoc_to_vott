@@ -14,6 +14,9 @@
 <h5>Copy this file into this repo's root directory and rename it to `sample_vott.json` </h5>
 ![](readme_images/copy_rename.PNG)
 
+<h5>Before executing, be sure to edit the `TAGS_LIST` variable in the `Converter` class with all the known classes/labels in your dataset</h5>
+![](readme_images/classlist.PNG)
+
 <h5>Now execute</h5>
 <h5>`python3 main.py --out_dir [path to directory you want to store the results]  --anno_path [path to directory containing all .xml files]`</h5>
 
