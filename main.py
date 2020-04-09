@@ -73,7 +73,7 @@ class Converter:
             temp_region["boundingBox"] = {
                 "height": ymax - ymin,
                 "width": xmax - xmin,
-                "left": ymin,
+                "left": xmin,
                 "top": ymin
             }
             temp_region['points'] = [
